@@ -1,0 +1,21 @@
+[
+    {
+      "jobTitle": "Software Developer",
+      "company": "TechCorp",
+      "location": "New York, NY",
+      "startDate": "Jan 2020",
+      "endDate": "Present",
+      "description": "Developed several web applications using React, Node.js, and Express.",
+      "technologies": ["React", "Node.js", "JavaScript"]
+    },
+    {
+      "jobTitle": "Junior Developer",
+      "company": "WebWorks",
+      "location": "Los Angeles, CA",
+      "startDate": "June 2018",
+      "endDate": "Dec 2019",
+      "description": "Worked on front-end development using HTML, CSS, and JavaScript.",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    }
+  ]
+  

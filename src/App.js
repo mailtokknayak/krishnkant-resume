@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
+import Footer from './components/Footer';
+import './styles.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={appStyle}>
+      <Header />
+      <About />
+      <Experience />
+      <Skills />
+      <Footer />
     </div>
   );
 }
+
+const appStyle = {
+  fontFamily: 'Arial, sans-serif',
+  maxWidth: '900px',
+  margin: 'auto',
+  padding: '20px',
+};
 
 export default App;
