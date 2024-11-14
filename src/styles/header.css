@@ -21,7 +21,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('/Users/krishna/Downloads/Krishnkant Nayak.png'); /* Replace with your image URL */
+    background-image: url('../../public/krishna.jpg'); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
     opacity: 0.3; /* Slight transparency for image */
