@@ -5,7 +5,11 @@ const About = () => {
     <section style={sectionStyle}>
       <h2>About Me</h2>
       <p>
-        I am a passionate web developer with experience in creating modern, responsive web applications. I specialize in front-end development using React and have a strong background in UI/UX design.
+        As a Full Stack Developer with over 7.5 years of experience, I excel in
+        backend technologies like Java and Spring Boot, and frontend
+        technologies such as ReactJS and NodeJS. I am proficient in Agile and XP
+        methodologies, CI/CD implementation, TDD, and pair programming, while
+        continuously staying updated with the latest technological advancements.
       </p>
     </section>
   );

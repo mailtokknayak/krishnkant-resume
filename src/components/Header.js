@@ -1,34 +1,52 @@
+// src/components/Header.js
 import React from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { HashLink as Link } from 'react-router-hash-link'; // For smooth scrolling
 import '../styles/header.css';
 
 const Header = () => {
   return (
-    <header style={headerStyle}>
-      <h1>Krishnkant Nayak</h1>
-      <p>Software Development Engineer 2</p>
-      <div style={iconContainerStyle}>
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"><FaGithub size={30} style={iconStyle} /></a>
-        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><FaLinkedin size={30} style={iconStyle} /></a>
-        <a href="mailto:youremail@example.com"><FaEnvelope size={30} style={iconStyle} /></a>
+    <header className="header">
+      <div className="header-text">
+        <div className="header-name">Krishnkant Nayak</div>
+        <div className="header-title">Software Development Engineer 2 </div>
       </div>
+
+      <nav className="header-nav">
+        <ul className="nav-list">
+        <li>
+          <Link to="/" className="nav-link">
+              Home
+            </Link>
+           </li>
+          <li>
+          <Link to="about" className="nav-link">
+              About
+            </Link>
+           </li>
+           <li>
+            <Link to="skills" className="nav-link">
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link to="experience" className="nav-link">
+              Experience
+            </Link>
+          </li>
+          <li>
+            <Link to="education" className="nav-link">
+              Education
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" className="nav-link">
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
-};
-
-const headerStyle = {
-  textAlign: 'center',
-  padding: '20px',
-  backgroundColor: '#f4f4f9',
-};
-
-const iconContainerStyle = {
-  marginTop: '10px',
-};
-
-const iconStyle = {
-  margin: '0 10px',
-  color: '#333',
 };
 
 export default Header;

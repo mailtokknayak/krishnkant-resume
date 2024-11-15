@@ -2,89 +2,93 @@
 
 /* General section styling */
 .skills-section {
-    padding: 50px 0;
-    background-color: #f4f7fa;
-  }
-  
+  padding: 50px 0;
+  background-color: #f4f7fa;
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Skills grid container */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* Automatically adjusts columns based on screen size */
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Individual skill item */
+.skill-item {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Skill name styling */
+.skill-name h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Skill progress bar container */
+.skill-bar-container {
+  background: #e0e0e0;
+  border-radius: 20px;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Skill progress bar itself */
+.skill-bar {
+  background-color: #2563eb;
+  height: 100%;
+  position: relative;
+  border-radius: 20px;
+  text-align: right;
+  transition: width 0.3s ease-in-out;
+}
+
+.skill-level {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .skills-title {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 40px;
-    color: #333;
+    font-size: 2rem;
   }
-  
-  /* Skills grid container */
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Automatically adjusts columns based on screen size */
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  /* Individual skill item */
-  .skill-item {
-    background: #ffffff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .skill-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Skill name styling */
+
   .skill-name h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 10px;
+    font-size: 1.2rem;
   }
-  
-  /* Skill progress bar container */
-  .skill-bar-container {
-    background: #e0e0e0;
-    border-radius: 20px;
-    height: 20px;
-    width: 100%;
-    overflow: hidden;
+
+  .skill-item {
+    padding: 15px;
   }
-  
-  /* Skill progress bar itself */
-  .skill-bar {
-    background-color: #2563eb;
-    height: 100%;
-    position: relative;
-    border-radius: 20px;
-    text-align: right;
-    transition: width 0.3s ease-in-out;
-  }
-  
-  .skill-level {
-    position: absolute;
-    right: 10px;
-    top: 0;
-    color: white;
-    font-weight: bold;
-    font-size: 0.9rem;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .skills-title {
-      font-size: 2rem;
-    }
-  
-    .skill-name h3 {
-      font-size: 1.2rem;
-    }
-  
-    .skill-item {
-      padding: 15px;
-    }
-  }
-  
+}

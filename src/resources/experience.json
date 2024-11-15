@@ -1,21 +1,56 @@
 [
-    {
-      "jobTitle": "Software Developer",
-      "company": "TechCorp",
-      "location": "New York, NY",
-      "startDate": "Jan 2020",
-      "endDate": "Present",
-      "description": "Developed several web applications using React, Node.js, and Express.",
-      "technologies": ["React", "Node.js", "JavaScript"]
-    },
-    {
-      "jobTitle": "Junior Developer",
-      "company": "WebWorks",
-      "location": "Los Angeles, CA",
-      "startDate": "June 2018",
-      "endDate": "Dec 2019",
-      "description": "Worked on front-end development using HTML, CSS, and JavaScript.",
-      "technologies": ["HTML", "CSS", "JavaScript"]
-    }
-  ]
-  
+  {
+    "jobTitle": "Software Development Engineer 2",
+    "company": "Tesco Bangalore",
+    "location": "Bangalore India",
+    "startDate": "Jan 2024",
+    "endDate": "Present",
+    "description": [
+      "Design, develop, and maintain the core payment gateway facilitating card transactions.",
+      "Advocate for secure, efficient, and reliable card payment processing.",
+      "Collaborate with cross-functional teams to enhance payment solutions."
+    ],
+    "technologies": ["Java", "SpringBoot", "JavaScript"]
+  },
+  {
+    "jobTitle": "Full Stack Developer",
+    "company": "Lowe's Services India Pvt. Ltd",
+    "location": "Bangalore India",
+    "startDate": "Nov 2020",
+    "endDate": "Jan 2024",
+    "description": [
+      "As a member of the Global Supply Chain team, I am responsible for managing the life cycle of product supply chains, which are part of the Omnichannel.",
+      "A dashboard system that enables transportation management and provides real-time updates.",
+      "Create multiple mircoservices from the ground up to enhance user experiences.",
+      "Designed a comprehensive claim portal from the ground up using HLD and LLD."
+    ],
+    "technologies": ["Java", "SpringBoot", "JavaScript"]
+  },
+  {
+    "jobTitle": "Full Stack Developer",
+    "company": "Axis Bank Pvt. Ltd",
+    "location": "Bangalore India",
+    "startDate": "May 2019",
+    "endDate": "Oct 2020",
+    "description": [
+      "Part of the Axis Digital Lending Platform Development with various products like personal loan, auto loan, home loan, credit cards.",
+      "Developed an event based central orchestrator, acting as the central layer to efficiently distribute and properly channelise the back end calls over different micro-services.",
+      "TechStack - SpringBoot with Kotlin, Reactive Programming,Kafka, mongoDB, Junit,Docker,Java,React, Redux, NextJs, Node, Express, Jest"
+    ],
+    "technologies": ["Java", "SpringBoot", "JavaScript"]
+  },
+  {
+    "jobTitle": "Full Stack Developer",
+    "company": "Allstate Solutions Private limited India",
+    "location": "Bangalore India",
+    "startDate": "Nov 2016",
+    "endDate": "May 2019",
+    "description": [
+      "Allstarz Platform to setup program , create and customise awards . Role based access.Nomination as individual , team. reports , dashboard.",
+      "Designed and developed e-commerce flow System.",
+      "Micro-services , Restful API endpoints, JWT Authentication, Proxy enabled as security feature.",
+      "TechStack - SpringBoot with Java, Junit, MsSQL,Docker React, Redux, Node, Express, Mocha, Protractor, Jenkins."
+    ],
+    "technologies": ["Java", "SpringBoot", "JavaScript"]
+  }
+]

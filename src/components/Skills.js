@@ -1,7 +1,7 @@
 // src/components/Skills.js
 import React, { useState, useEffect } from 'react';
-import skillsData from '../resources/skills.json';  // Import the skills JSON data
-import '../styles/skills.css'
+import skillsData from '../resources/skills.json'; // Import the skills JSON data
+import '../styles/skills.css';
 const Skills = () => {
   const [skills, setSkills] = useState([]);
 
@@ -22,8 +22,12 @@ const Skills = () => {
                   <img src={skill.image} alt={skill.skillName} />
                   <div>
                     <h4>{skill.skillName}</h4>
-                    <p><strong>Proficiency:</strong> {skill.proficiency}</p>
-                    <p><strong>Experience:</strong> {skill.experienceYears} years</p>
+                    <p>
+                      <strong>Proficiency:</strong> {skill.proficiency}
+                    </p>
+                    <p>
+                      <strong>Experience:</strong> {skill.experienceYears} years
+                    </p>
                     <p>{skill.description}</p>
                   </div>
                 </li>

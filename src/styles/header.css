@@ -1,109 +1,56 @@
 /* src/styles/header.css */
 
-/* Header Section */
-header {
-    position: relative;
-    height: 30vh; /* Full viewport height */
-    background: linear-gradient(135deg, #2563eb, #1f2937);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('../../public/krishna.jpg'); /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
-    opacity: 0.3; /* Slight transparency for image */
-    z-index: -1; /* Ensures text is above the background */
-    animation: fadeIn 2s ease-in-out;
-  }
-  
-  /* Text Content */
-  .header-content {
-    z-index: 1;
-    max-width: 800px;
-    margin: 0 20px;
-  }
-  
-  .header h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-    animation: fadeInUp 1s ease-out;
-  }
-  
-  .header p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-    font-weight: 400;
-    color: #d1d5db;
-    animation: fadeInUp 1.5s ease-out;
-  }
-  
-  .cta-button {
-    padding: 15px 30px;
-    background-color: #2563eb;
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 600;
-    border-radius: 5px;
-    text-transform: uppercase;
-    text-decoration: none;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .cta-button:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes fadeInUp {
-    0% {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .header h1 {
-      font-size: 2.5rem;
-    }
-  
-    .header p {
-      font-size: 1.2rem;
-    }
-  
-    .cta-button {
-      font-size: 1rem;
-      padding: 12px 25px;
-    }
-  }
-  
+/* General Header Styling */
+.header {
+  display: flex;
+  flex-direction: column; /* Arrange text in rows */
+  align-items: center; /* Center-align the items horizontally */
+  justify-content: flex-start; /* Align items to the top (header name & title) */
+  background-color: #2563eb; /* Blue background color */
+  color: white;
+  padding: 40px 20px;
+  height: 35vh; /* Full viewport height */
+  text-align: center; /* Center text horizontally */
+  position: relative; /* This allows us to position elements inside it */
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically in rows */
+  align-items: center; /* Center items horizontally */
+  gap: 10px; /* Add space between rows */
+  flex-grow: 1; /* Allow header-text to take available space */
+}
+
+.header-name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.header-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.header-nav {
+  margin-top: auto; /* Push the navigation links to the bottom */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* Change to yellow on hover */
+}

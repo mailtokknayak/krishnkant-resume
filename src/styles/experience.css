@@ -2,149 +2,152 @@
 
 /* Work Experience Section */
 .experience-section {
-    padding: 50px 0;
-    background-color: #f4f7fa;
-  }
-  
-  .section-title {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 40px;
-    color: #333;
-  }
-  
-  /* Timeline Styles */
+  padding: 50px 0;
+  background-color: #f4f7fa;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Timeline Styles */
+.timeline {
+  position: relative;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Timeline Item */
+.timeline-item {
+  position: relative;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.timeline-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Timeline Dot */
+.timeline-dot {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  background-color: #2563eb;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+/* Content Alignment for Timeline Items */
+.timeline-item.left .timeline-content {
+  padding-left: 80px;
+}
+
+.timeline-item.right .timeline-content {
+  padding-right: 80px;
+}
+
+.timeline-item.left .timeline-dot {
+  left: -20px;
+}
+
+.timeline-item.right .timeline-dot {
+  left: 100%;
+  transform: translateX(-100%);
+}
+
+/* Content Styling */
+.timeline-content h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.timeline-content .company {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin: 5px 0;
+}
+
+.timeline-content .location {
+  font-size: 1rem;
+  color: #9ca3af;
+}
+
+.timeline-content .dates {
+  font-size: 1rem;
+  color: #9ca3af;
+  margin: 10px 0;
+}
+
+.timeline-content .description {
+  font-size: 1.1rem;
+  color: #6b7280;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.timeline-content .tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-tag {
+  background-color: #eff6ff;
+  color: #2563eb;
+  padding: 6px 12px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.tech-tag:hover {
+  background-color: #2563eb;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .timeline {
-    position: relative;
-    padding: 40px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-  
-  /* Timeline Item */
-  .timeline-item {
-    position: relative;
     padding: 20px;
-    background: #ffffff;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-  
-  .timeline-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+
+  .timeline-item {
+    padding: 15px;
   }
-  
-  /* Timeline Dot */
-  .timeline-dot {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    width: 18px;
-    height: 18px;
-    background-color: #2563eb;
-    border-radius: 50%;
-    transform: translateX(-50%);
-  }
-  
-  /* Content Alignment for Timeline Items */
-  .timeline-item.left .timeline-content {
-    padding-left: 80px;
-  }
-  
-  .timeline-item.right .timeline-content {
-    padding-right: 80px;
-  }
-  
-  .timeline-item.left .timeline-dot {
-    left: -20px;
-  }
-  
-  .timeline-item.right .timeline-dot {
-    left: 100%;
-    transform: translateX(-100%);
-  }
-  
-  /* Content Styling */
+
   .timeline-content h3 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: #333;
+    font-size: 1.5rem;
   }
-  
+
   .timeline-content .company {
-    font-size: 1.1rem;
-    color: #4b5563;
-    margin: 5px 0;
-  }
-  
-  .timeline-content .location {
     font-size: 1rem;
-    color: #9ca3af;
   }
-  
-  .timeline-content .dates {
-    font-size: 1rem;
-    color: #9ca3af;
-    margin: 10px 0;
-  }
-  
+
   .timeline-content .description {
-    font-size: 1.1rem;
-    color: #6b7280;
-    line-height: 1.5;
-    margin-bottom: 15px;
+    font-size: 1rem;
   }
-  
-  .timeline-content .tech-stack {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
+
   .tech-tag {
-    background-color: #eff6ff;
-    color: #2563eb;
-    padding: 6px 12px;
-    border-radius: 25px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 0.8rem;
+    padding: 5px 10px;
   }
-  
-  .tech-tag:hover {
-    background-color: #2563eb;
-    color: white;
-    transform: scale(1.1);
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .timeline {
-      padding: 20px;
-    }
-  
-    .timeline-item {
-      padding: 15px;
-    }
-  
-    .timeline-content h3 {
-      font-size: 1.5rem;
-    }
-  
-    .timeline-content .company {
-      font-size: 1rem;
-    }
-  
-    .timeline-content .description {
-      font-size: 1rem;
-    }
-  
-    .tech-tag {
-      font-size: 0.8rem;
-      padding: 5px 10px;
-    }
-  }
-  
+}
