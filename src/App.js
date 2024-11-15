@@ -1,7 +1,6 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link'; // For smooth scrolling
 
 import Header from './components/Header';
 import Skill from './components/Skills';
