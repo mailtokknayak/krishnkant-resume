@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import './styles.css';
 import Skills from './components/Skills';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 };

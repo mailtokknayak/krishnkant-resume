@@ -11,8 +11,6 @@ const Footer = () => {
 const footerStyle = {
   textAlign: 'center',
   padding: '20px',
-  backgroundColor: '#f4f4f9',
-  position: 'fixed',
   bottom: 0,
   width: '100%',
 };

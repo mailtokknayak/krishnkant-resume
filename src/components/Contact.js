@@ -10,36 +10,47 @@ const Contact = () => {
         <div className="contact-details">
           <div className="contact-item">
             <span className="label">Email:</span>
-            <a href="mailto:johndoe@example.com" className="contact-link">
-              johndoe@example.com
+            <a href="mailto:krishnkantnayak02@gmail.com" className="contact-link">
+                krishnkantnayak02@gmail.com
             </a>
           </div>
           <div className="contact-item">
             <span className="label">Phone:</span>
             <a href="tel:+1234567890" className="contact-link">
-              +1 (234) 567-890
+              7411408190
             </a>
           </div>
           <div className="contact-item">
             <span className="label">GitHub:</span>
             <a
-              href="https://github.com/johndoe"
+              href="https://github.com/mailtokknayak"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-link"
             >
-              github.com/johndoe
+              github.com/mailtokknayak
             </a>
           </div>
           <div className="contact-item">
             <span className="label">LinkedIn:</span>
             <a
-              href="https://linkedin.com/in/johndoe"
+              href="https://www.linkedin.com/in/krishnkant-nayak-37a71b106/"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-link"
             >
-              linkedin.com/in/johndoe
+              linkedin.com/in/krishnkant-nayak
+            </a>
+          </div>
+          <div className="contact-item">
+            <span className="label">LeetCode:</span>
+            <a
+              href="https://leetcode.com/u/knayak/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
+              leetcode.com/u/knayak
             </a>
           </div>
         </div>
