@@ -19,7 +19,7 @@ const Education = () => {
               <h3 className="degree">{education.degree}</h3>
               {education.logo && (
                 <div className="college_logo">
-                  <img src={education.logo} className="college-logo" />
+                  <img src="../../public/aktu_logo.png" className="college-logo" />
                 </div>
               )}
               <p className="institution">{education.university}</p>
