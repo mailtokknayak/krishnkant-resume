@@ -1,122 +1,164 @@
 {
   "skills": [
     {
-      "category": "Frontend Development",
-      "skillsList": [
-        {
-          "skillName": "React",
-          "proficiency": "Advanced",
-          "experienceYears": 3,
-          "description": "Building interactive UIs using React and managing state with React Hooks.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-        },
-        {
-          "skillName": "JavaScript",
-          "proficiency": "Advanced",
-          "experienceYears": 5,
-          "description": "Strong knowledge of vanilla JavaScript and modern ES6+ features.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-        },
-        {
-          "skillName": "HTML5",
-          "proficiency": "Advanced",
-          "experienceYears": 5,
-          "description": "Proficient in building semantic, accessible, and responsive web pages.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
-        },
-        {
-          "skillName": "CSS3",
-          "proficiency": "Advanced",
-          "experienceYears": 5,
-          "description": "Expert in CSS, Flexbox, Grid, and animations to create responsive and styled layouts.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo.svg"
-        },
-        {
-          "skillName": "SASS",
-          "proficiency": "Intermediate",
-          "experienceYears": 3,
-          "description": "Using SASS for writing clean, maintainable, and modular CSS with variables and mixins.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo.svg"
-        }
-      ]
-    },
-    {
       "category": "Backend Development",
       "skillsList": [
         {
           "skillName": "Node.js",
           "proficiency": "Advanced",
-          "experienceYears": 3,
-          "description": "Building scalable RESTful APIs and web applications using Node.js and Express.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Node.js_logo_2015.svg"
+          "experienceYears": 5,
+          "description": "Building scalable RESTful APIs and web applications using Node.js.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
         },
         {
-          "skillName": "Express.js",
+          "skillName": "Java",
           "proficiency": "Advanced",
-          "experienceYears": 3,
-          "description": "Building server-side applications using Express.js framework, handling routing, middleware, and HTTP requests.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+          "experienceYears": 7,
+          "description": "Building scalable RESTful APIs and web applications using Java and Spring Boot.",
+          "image": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+        },
+        {
+          "skillName": "Spring Boot",
+          "proficiency": "Advanced",
+          "experienceYears": 6,
+          "description": "Creating microservices with Spring Boot.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg"
         },
         {
           "skillName": "MongoDB",
-          "proficiency": "Intermediate",
-          "experienceYears": 2,
-          "description": "Working with NoSQL databases, creating and managing data models with MongoDB.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/MongoDB_Logo.svg"
+          "proficiency": "Advanced",
+          "experienceYears": 4,
+          "description": "Building NoSQL databases with MongoDB.",
+          "image": "https://upload.wikimedia.org/wikipedia/en/4/45/MongoDB-Logo.svg"
         },
         {
-          "skillName": "SQL (MySQL, PostgreSQL)",
+          "skillName": "PostgreSQL",
+          "proficiency": "Advanced",
+          "experienceYears": 5,
+          "description": "Working with relational databases using PostgreSQL.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+        },
+        {
+          "skillName": "MySQL",
+          "proficiency": "Advanced",
+          "experienceYears": 6,
+          "description": "Developing with MySQL for relational databases.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg"
+        },
+        {
+          "skillName": "Kafka",
           "proficiency": "Intermediate",
-          "experienceYears": 2,
-          "description": "Proficient in relational databases and writing complex queries in MySQL and PostgreSQL.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/MySQL_Logo.png"
+          "experienceYears": 3,
+          "description": "Implementing event streaming with Apache Kafka.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Apache_Kafka_logo.svg"
         }
       ]
     },
     {
-      "category": "Version Control & Collaboration",
+      "category": "Frontend Development",
+      "skillsList": [
+        {
+          "skillName": "React",
+          "proficiency": "Advanced",
+          "experienceYears": 4,
+          "description": "Building responsive user interfaces with React.js.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+        },
+        {
+          "skillName": "JavaScript",
+          "proficiency": "Expert",
+          "experienceYears": 6,
+          "description": "Building dynamic websites and applications with JavaScript.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+        },
+        {
+          "skillName": "HTML",
+          "proficiency": "Expert",
+          "experienceYears": 7,
+          "description": "Creating the structure of web pages with HTML.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+        },
+        {
+          "skillName": "CSS",
+          "proficiency": "Expert",
+          "experienceYears": 7,
+          "description": "Designing and styling web pages using CSS.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+        }
+      ]
+    },
+    {
+      "category": "Cloud Technologies",
+      "skillsList": [
+        {
+          "skillName": "Azure",
+          "proficiency": "Intermediate",
+          "experienceYears": 3,
+          "description": "Developing and deploying applications on Microsoft Azure.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg"
+        },
+        {
+          "skillName": "Google Cloud",
+          "proficiency": "Intermediate",
+          "experienceYears": 2,
+          "description": "Deploying and managing services with Google Cloud Platform.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Google_Cloud_logo.svg"
+        }
+      ]
+    },
+    {
+      "category": "DevOps Tools",
+      "skillsList": [
+        {
+          "skillName": "Docker",
+          "proficiency": "Advanced",
+          "experienceYears": 4,
+          "description": "Building and managing containerized applications using Docker.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg"
+        },
+        {
+          "skillName": "Kubernetes",
+          "proficiency": "Advanced",
+          "experienceYears": 3,
+          "description": "Orchestrating containerized applications with Kubernetes.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg"
+        },
+        {
+          "skillName": "Jenkins",
+          "proficiency": "Intermediate",
+          "experienceYears": 3,
+          "description": "Automating CI/CD pipelines using Jenkins.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg"
+        }
+      ]
+    },
+    {
+      "category": "Tools and Collaborations",
       "skillsList": [
         {
           "skillName": "Git",
-          "proficiency": "Advanced",
-          "experienceYears": 4,
-          "description": "Managing and collaborating on code using Git for version control and GitHub for repositories.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Git-logo.svg"
+          "proficiency": "Expert",
+          "experienceYears": 6,
+          "description": "Version control with Git and GitHub for collaborative development.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
         },
         {
-          "skillName": "GitHub",
-          "proficiency": "Advanced",
-          "experienceYears": 4,
-          "description": "Using GitHub for code collaboration, pull requests, and version control management.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/GitHub_Logo_2018.svg"
-        }
-      ]
-    },
-    {
-      "category": "Tools & Frameworks",
-      "skillsList": [
-        {
-          "skillName": "Webpack",
+          "skillName": "Bitbucket",
           "proficiency": "Intermediate",
           "experienceYears": 2,
-          "description": "Configuring and optimizing front-end build tools and bundlers using Webpack.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/webpack_logo.svg"
+          "description": "Source code management with Bitbucket.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Bitbucket-blue-logomark-only.svg"
         },
         {
-          "skillName": "Docker",
-          "proficiency": "Intermediate",
-          "experienceYears": 1,
-          "description": "Containerizing applications and managing deployment pipelines using Docker.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Docker_logo.png"
-        },
-        {
-          "skillName": "Figma",
-          "proficiency": "Intermediate",
-          "experienceYears": 2,
-          "description": "Creating UI/UX designs and prototypes with Figma for responsive websites and applications.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Figma-logo.svg"
+          "skillName": "Jira",
+          "proficiency": "Expert",
+          "experienceYears": 5,
+          "description": "Managing software projects and workflows with Jira.",
+          "image": "https://upload.wikimedia.org/wikipedia/en/8/8f/Atlassian_Jira_logo.png"
         }
       ]
     }
   ]
+  
+
 }

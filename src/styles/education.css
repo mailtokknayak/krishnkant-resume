@@ -1,104 +1,85 @@
-/* src/styles/education.css */
-
-/* General Education Section Styling */
+/* Education Section */
 .education-section {
-  padding: 50px 0;
-  background-color: #f4f7fa; /* Same background as the Skills section */
+  padding: 60px 20px;
+  background-color: #212121; /* Dark background */
+  margin-bottom: 50px;
 }
 
-.education-title {
+.section-title {
   font-size: 2.5rem;
-  text-align: center;
+  font-weight: bold;
+  text-align: left; /* Left-align section title */
+  color: #1abc9c;
+  border-left: 4px solid #1abc9c;
+  padding-left: 10px;
   margin-bottom: 40px;
-  color: #333;
 }
 
-/* Education Item Layout */
-.education-list {
+/* Timeline Styling */
+.timeline {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  align-items: flex-start; /* Left-aligned items */
 }
 
-.education-item {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+.timeline-item {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  width: 100%;
+  justify-content: flex-start; /* Align to left */
+  position: relative;
 }
 
-.education-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+.timeline-item.left {
+  flex-direction: row;
 }
 
-/* Degree Styling */
+.timeline-dot {
+  width: 20px;
+  height: 20px;
+  background-color: #8e44ad; /* Purple dot */
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timeline-content {
+  background-color: #2c3e50; /* Dark content background */
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 45%;
+  color: white;
+  position: relative;
+  margin-left: 30px;
+}
+
 .degree {
   font-size: 1.8rem;
-  font-weight: 600;
-  color: #2563eb; /* Blue color for degree */
-  margin-bottom: 10px;
+  font-weight: bold;
+  color: #f39c12; /* Alien yellow */
 }
 
-.institution {
-  font-size: 1.2rem;
-  color: #555;
+.institution, .location, .dates {
+  font-size: 1.1rem;
+  color: #bdc3c7;
 }
 
-.year {
-  font-size: 1rem;
-  color: #777;
-  margin-top: 5px;
-}
-
-/* Relevant Courses */
-.courses {
-  margin-top: 20px;
-}
-
-.courses h4 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #333;
-}
-
-.courses ul {
-  list-style-type: none;
-  padding-left: 0;
+.description {
+  font-size: 1.1rem;
+  color: #ecf0f1;
   margin-top: 10px;
 }
 
-.courses li {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 5px;
+.college-logo {
+  width: 60px;
+  height: auto;
+  margin-left: auto;
+  display: block;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .education-title {
-    font-size: 2rem;
-  }
-
-  .degree {
-    font-size: 1.5rem;
-  }
-
-  .institution {
-    font-size: 1.1rem;
-  }
-
-  .year {
-    font-size: 0.9rem;
-  }
-
-  .education-item {
-    padding: 15px;
-  }
+.website-link{
+ color: #f39c12;
 }

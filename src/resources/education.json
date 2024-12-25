@@ -1,9 +1,14 @@
 [
   {
     "degree": "Bachelor of Technology(B-Tech) in Information Technology",
-    "institution": "Dr. Ambedkar Institute of Technology Kanpur, U.P.",
     "university": "Dr. A. P. J. Abdul Kalam Technical University, Lucknow",
-    "year": "2012 - 2016",
-    "courses": ["Data Structures", "Algorithms", "Web Development", "Databases"]
+    "institution": "Dr. Ambedkar Institute of Technology Kanpur,Uttar Pradesh 208024",
+    "location": "Kanpur, Uttar Pradesh 208024",
+    "startDate": "2012",
+    "endDate": "2016",
+    "description": "Focused on algorithms, data structures, and full-stack web development.",
+    "logo": "https://aktuadm.samarth.edu.in/phd/assets/9c36a721/site_files/aktu_logo.png",
+    "address": "opp. Rama Dental College, Awadhpuri, Khyora, Kanpur, Uttar Pradesh 208024",
+    "website":"https://aith.ac.in"
   }
 ]

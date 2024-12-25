@@ -1,0 +1,32 @@
+/* Footer Styling */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #2C3E50; /* Deep Charcoal */
+    color: #ECF0F1; /* Light Gray */
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    border-top: 4px solid #16A085; /* Soft Teal Accent */
+  }
+  
+  /* Footer Text Styling */
+  .footer-text {
+    font-size: 1.1rem;
+    color: #BDC3C7; /* Lighter Gray for the text */
+  }
+  
+  .footer-text a {
+    color: #16A085; /* Soft Teal for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-text a:hover {
+    color: #F39C12; /* Warm Yellow on hover */
+  }
+  

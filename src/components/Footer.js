@@ -1,18 +1,17 @@
 import React from 'react';
+import '../styles/footer.css';
 
-const Footer = () => {
-  return (
-    <footer style={footerStyle}>
-      <p>Designed and built by Krishnkant Nayak</p>
-    </footer>
-  );
-};
-
-const footerStyle = {
-  textAlign: 'center',
-  padding: '20px',
-  bottom: 0,
-  width: '100%',
-};
+const Footer = () => (
+  <footer className="footer">
+    <div className="footer-text">
+      <p>Designed with ❤️ by &nbsp;
+        <a href="https://krishnkantnayak-resume.netlify.app" target="_blank" rel="noopener noreferrer">
+           Krishnkant Nayak
+        </a>
+      </p>
+      <p>&copy; 2024 All rights reserved.</p>
+    </div>
+  </footer>
+);
 
 export default Footer;

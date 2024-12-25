@@ -1,27 +1,43 @@
-// src/components/Education.js
 import React from 'react';
-import '../styles/education.css'; // Import the separate CSS file
-import educationData from '../resources/education.json';
+import '../styles/education.css';
+import educationData from '../resources/education.json'; // Importing education data
+
 const Education = () => {
   return (
     <section className="education-section">
-      <h2 className="education-title">Education</h2>
-      <div className="education-list">
-        {educationData.map((item, index) => (
-          <div key={index} className="education-item">
-            <div className="education-details">
-              <h3 className="degree">{item.degree}</h3>
-              <p className="institution">University: {item.university}</p>
-              <p className="institution">College: {item.institution}</p>
-              <p className="year">Graduated: {item.year}</p>
-            </div>
-            <div className="courses">
-              <h4>Relevant Courses:</h4>
-              <ul>
-                {item.courses.map((course, courseIndex) => (
-                  <li key={courseIndex}>{course}</li>
-                ))}
-              </ul>
+      <h2 className="section-title">
+        Education
+      </h2>
+      <div className="timeline">
+        {educationData.map((education, index) => (
+          <div
+            key={index}
+            className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}
+          >
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <h3 className="degree">{education.degree}</h3>
+              {education.logo && (
+                <div className="college_logo">
+                  <img src={education.logo} className="college-logo" />
+                </div>
+              )}
+              <p className="institution">{education.university}</p>
+              <p className="institution">{education.institution}</p>
+              <p className="dates">
+                {education.startDate} - {education.endDate}
+              </p>
+              <p className="description">{education.description}</p>
+              {/* Add logo and address */}
+              
+              {education.address && (
+                <p className="address">{education.address}</p>
+              )}
+              {education.website && (
+                <a href={education.website} target="_blank" rel="noopener noreferrer" className="website-link">
+                  Visit Website
+                </a>
+              )}
             </div>
           </div>
         ))}
