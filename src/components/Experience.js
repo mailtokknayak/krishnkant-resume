@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section className="experience-section">
       <h2 className="section-title">
-        <img src="https://img.icons8.com/?size=100&id=jFFUVKz5Oszp&format=png&color=000000" alt="Skills Icon" className="skills-icon" />
+        <img src="https://img.icons8.com/?size=100&id=jFFUVKz5Oszp&format=png&color=000000" alt="Experience Icon" className="skills-icon" />
         Work Experience
       </h2>
       <div className="timeline">
